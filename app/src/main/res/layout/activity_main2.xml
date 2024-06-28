@@ -1,0 +1,63 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:background="@color/white"
+        android:id="@+id/usname"
+        android:drawableLeft="@drawable/baseline_person_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="number"
+        android:background="@color/white"
+        android:id="@+id/passwrd"
+        android:drawableLeft="@drawable/baseline_lock_outline_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="number"
+        android:background="@color/white"
+        android:id="@+id/cnfmpass"
+        android:drawableLeft="@drawable/baseline_lock_outline_24"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="#3F51B5"
+        android:textColor="@color/white"
+        android:layout_margin="30px"
+        android:id="@+id/regisbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back to Login"
+        android:background="#3F51B5"
+        android:textColor="@color/white"
+        android:layout_margin="30px"
+        android:id="@+id/loginbtn"/>
+</LinearLayout>
